@@ -1,0 +1,98 @@
+@import url('http://fonts.googleapis.com/css?family=Rokkitt');
+
+h1 {
+    font-family: 'Rokkitt', serif;
+    text-align: center;
+    color: #feb135;
+    font-size: 3rem;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-family: 'Rokkitt', serif;
+    font-size: 1.2rem;
+    color: #eee;
+}
+
+input[type=radio]{
+    border: 0px;
+    width: 20px;
+    height: 1rem;
+}
+
+p{
+    font-family: 'Rokkitt', serif;
+}
+
+/* Quiz Classes */
+.quizContainer {
+    background-color: #000013;
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 5px;
+    position: relative;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.nextButton{
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: #feb135;
+    border: none;
+    color:#000013;
+    font-family: 'Rokkitt', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+}
+
+.question{
+    font-family: 'Rokkitt', serif;
+    font-size: 1.5rem;
+    width: fit-content;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 6px;
+    background-color: rgba(198, 198, 204, 0.1);
+    text-align: center;
+    color: #fff;
+}
+
+.quizMessage{
+    background-color: #fff;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Rokkitt', serif;
+    color: #feb135;
+}
+
+.choiceList {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+
+.result {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Rokkitt', serif;
+}
